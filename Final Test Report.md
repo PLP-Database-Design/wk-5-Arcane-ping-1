@@ -123,7 +123,7 @@ Cindy led this part. We spent about 45 minutes brainstorming what could go wrong
 | R-03| Leaderboard |The top 3 list might not sort correctly|Medium  | High |**HIGH**|Try different score combinations including ties|
 | R-04|Reset Game |Reset button might not actually clear everything  |Medium | Medium |**MEDIUM**| Try solving puzzles as quickly as possible|
 | R-05| Bonus Round|Weird timing issue if you solve a puzzle really fast  |Low | Medium |**MEDIUM** | Try solving puzzles as quickly as possible|
-| R-06 Bonus Round|  Leaderboard|The display might not update right away after getting a new high score|Medium | Low |**LOW** |Check if the leaderboard refreshes immediately|
+|R-06| Leaderboard|The display might not update right away after getting a new high score|Medium | Low |**LOW** |Check if the leaderboard refreshes immediately|
 | R-07|  Reset Game| Reset button might cause problems if clicked during animations |Low  | Low |**LOW**|Click reset while the game is showing a puzzle animation |
 | R-08|Both Features |Bonus round and leaderboard might mess each other up | Low |High  |**HIGH**| Trigger bonus right when a new high score happens|
 
@@ -218,7 +218,7 @@ No major scope changes were needed during execution. However, one test case (TC-
 | Name | Role | Initials | Date |
 |------|------|-----------|------|
 |Dennis| Test Manager |KD|28 October 2025|
-|Cindy| Risk Analyst |Nc|28 October 2025|
+|Cindy| Risk Analyst |NC|28 October 2025|
 |Deborah| Test Executor |D|28 October 2025|
 
 ## Overall Summary

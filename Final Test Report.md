@@ -236,14 +236,12 @@ No major scope changes were needed during execution. However, one test case (TC-
 -[Bug 07](https://github.com/PLP-Database-Design/wk-5-Arcane-ping-1/issues/8#)  
 -[Bug 08](https://github.com/PLP-Database-Design/wk-5-Arcane-ping-1/issues/9#)
 
+**Risk Analysis Note**  
+-[Risk Analysis Report](./Risk_Analysis_Report.md)  
 
-
-**Risk analysis note**
-
-- [Risk Analysis Report](./Risk_Analysis_Report.md)
-- 
-
-
+**Team Comminucation**  
+-[Raid](./Team%20Communication/Raid.mp4)  
+-[Dennis & Cindy](./Team%20Communication/Dennis%20&%20Cindy.mp4)  
 
 ## Sign Off
 

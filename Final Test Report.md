@@ -241,8 +241,7 @@ No major scope changes were needed during execution. However, one test case (TC-
 **Risk analysis note**
 
 - [Risk Analysis Report](./Risk_Analysis_Report.md)
-- [Test Cases Evidence](./test_evidence/)
-- [Defect Logs](./defects/)
+- 
 
 
 

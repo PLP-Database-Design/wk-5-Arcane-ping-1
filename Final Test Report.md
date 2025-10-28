@@ -89,7 +89,7 @@
 
 | Phase | Planned Duration | Actual Duration | Status |
 |-------|------------------|-----------------|--------|
-| 1|5hours |12 hours | |
+| 1|5hours |18 hours | completed|
 
 ## Risk Analysis
 
@@ -141,7 +141,7 @@ Cindy led this part. We spent about 45 minutes brainstorming what could go wrong
 |TC-01|Reset Game|Does clicking Reset actually clear the score?|Score = 0, Solved puzzles = 0, Bonus counter shows"3"|Everything reset correctly. Score went to zero, puzzle count reset, and we got a "Game reset!" message.|**PASS**|R-04|
 |TC-02|Leaderboard|Do scores actually stick around after you close the browser?|Leaderboard shows 22, 15, 12 (top 3 in order). After reopening, same scores should still be there.|The leaderboard showed the right scores before closing, but after we reopened Chrome, it said "No scores yet — be the first!" The scores were completely gone.|**FAIL**|R-02 (Critical), R-03|
 |TC-03|Bonus Round|Does the score actually double at puzzle 3, 6, 9, etc?|Bonus message appears at puzzles 3 and 6, score doubles correctly|Both bonus rounds triggered correctly. Puzzle 3 gave 60 points and puzzle 6 gave 180 points as expected.|**PASS**|R-01|
-|TC-04|Leaderboard|When you get more than 3 scores, does it keep only the highest ones?|First shows 100🥇, 75🥈, 50🥉. Then shows 100🥇, 75🥈, 60🥉|Worked perfectly. The leaderboard kept the top 3 and dropped the score of 50 when we added 60.|**PASS**|R-03|
+|TC-04|Leaderboard|When you get more than 3 scores, does it keep only the highest ones?|First shows 100, 75, 50. Then shows 100, 75, 60|Worked perfectly. The leaderboard kept the top 3 and dropped the score of 50 when we added 60.|**PASS**|R-03|
 |TC-05|Reset Game|Can you reset when you're partway to a bonus?|After reset, the bonus counter should go back to "3". Then bonus should trigger normally after 3 new puzzles.|Reset cleared the puzzle counter correctly and the bonus worked fine after that.|**PASS**|R-04|
 |TC-06|Leaderboard|What shows up when there are no scores yet?|Should say "No scores yet — be the first!"|Correct message displayed.|**PASS**|R-06|
 |TC-07|Reset Game|Does reset break if you click it before playing?|No errors, game still works fine|No problems. Got the "Game reset!" message even though nothing needed resetting, and the game worked fine after.|**PASS**|R-04|
@@ -162,13 +162,13 @@ Cindy led this part. We spent about 45 minutes brainstorming what could go wrong
 - Test Case Pass Percent: 80%
 - Defect Density: 0.3
 - Risk Coverage Percent: 87.5%
-- Regression Success Rate: 75%
+- Regression Success Rate: Due to the single-session nature of our testing and no development fixes being implemented during our cycle, we were unable to perform regression testing. Future testing cycles should include proper regression testing after defect resolution
 
 ### Defect Summary
 
 - Total Defects Logged: 3
 - Critical High: 2
-- Fix Rate:
+- Fix Rate:0% This accurately reflects that we found issues but haven't yet entered the fix-verify cycle of testing.
 
 ## Test Control & Project Management
 

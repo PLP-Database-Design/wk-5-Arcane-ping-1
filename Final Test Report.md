@@ -93,7 +93,30 @@
 
 ## Risk Analysis
 
-Cindy led this part. We spent about 2hours minutes brainstorming what could go wrong and how bad it would be if it did.
+Cindy led this part. We spent about 2hours minutes brainstorming what could go wrong and how bad it would be if it did
+
+
+
+**Our  Objective:**
+To proactively identify potential areas of failure in the "Word Puzzle Game Plus," prioritize them based on their likelihood and impact, and direct our testing efforts to where they are most needed.
+
+**Methodology:**
+We followed a systematic risk-based testing approach:
+
+1.  **Identification:** Brainstormed potential failures for each feature (Reset Game, Leaderboard, Bonus Round) and technical aspects (localStorage, UI).
+2.  **Assessment:** Rated each risk on a **High/Medium/Low** scale for:
+    *   **Likelihood:** How probable is it that this bug exists?
+    *   **Impact:** How severely would it affect the user experience if it failed?
+3.  **Prioritization:** Combined Likelihood and Impact to determine **Priority**, which dictates the order and depth of testing.
+4.  **Mitigation:** For each risk, defined a testing strategy (the "Mitigation Strategy") to uncover the potential defect.
+
+**Key Findings & Focus Areas:**
+*   **Highest Risk Features:** The **Leaderboard** and **Reset Game** functionality carry the highest risk due to their direct impact on user data and core game progress. Failures here (e.g., data not saving, accidental data loss) would significantly damage user trust.
+*   **Critical Integration Points:** The logic triggering the **Bonus Round** is a high-priority risk. An error here would break a key game mechanic and frustrate players.
+*   **Data Integrity is Paramount:** Risks related to `localStorage` (persistence, corruption) are high-impact because they are the foundation for the leaderboard and game state.
+
+**Conclusion:**
+This analysis ensures our testing is efficient and effective. We will focus our test cases on mitigating the **High** and **Medium** priority risks first, as resolving these will provide the greatest increase in application stability and user satisfaction.
 
 ### How We Scored Risks
 

@@ -236,6 +236,16 @@ No major scope changes were needed during execution. However, one test case (TC-
 -[Bug 07](https://github.com/PLP-Database-Design/wk-5-Arcane-ping-1/issues/8#)  
 -[Bug 08](https://github.com/PLP-Database-Design/wk-5-Arcane-ping-1/issues/9#)
 
+
+
+**Risk analysis note**
+
+- [Risk Analysis Report](./Risk_Analysis_Report.md)
+- [Test Cases Evidence](./test_evidence/)
+- [Defect Logs](./defects/)
+
+
+
 ## Sign Off
 
 | Name | Role | Initials | Date |
